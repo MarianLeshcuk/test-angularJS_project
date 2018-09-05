@@ -1,0 +1,150 @@
+<div class="content">
+    <!--   BUTTON FOR SHOT DOWN CONTENT BLOCK-->
+    <input style="display: none" type="button" ng-model="back" value="BACK" id="Back">
+
+    <!--   SLIDE WITH GENERAL INFORMATION-->
+    <div class="about">
+        <h1>We'll create your business better!</h1>
+        <p>A business (also known as an enterprise, a company, or a firm) is an organizational entity and legal entity made up of an association of people, be they natural, legal, or a mixture of both who share a common purpose and unite in order to focus their various talents and organize their collectively available skills or resources to achieve specific declared goals and are involved in the provision of goods and services to consumers. A business can also be described as an organization that provides goods and services for human needs.</p>
+        <h2>Our offers:</h2>
+        <ul>
+            <li>Fast service</li>
+            <li>Light prices</li>
+            <li>More oportynities</li>
+            <li>Best marketing</li>
+        </ul>
+        <p>Marketing is defined by the American Marketing Association as "the activity, set of institutions, and processes for creating, communicating, delivering, and exchanging offerings that have value for customers, clients, partners, and society at large." The term developed from the original meaning which referred literally to going to a market to buy or sell goods or services. Marketing tactics include advertising as well as determining product pricing.</p>
+
+        <!--       SLIDER-->
+        <div id="slider">
+            <a href="#" class="control_next">></a>
+            <a href="#" class="control_prev">
+                <</a>
+                    <ul>
+                        <li>SLIDE 1</li>
+                        <li style="background: #aaa;">SLIDE 2</li>
+                        <li>SLIDE 3</li>
+                        <li style="background: #aaa;">SLIDE 4</li>
+                    </ul>
+        </div>
+
+    </div>
+
+    <!--   SLIDE WITH OFFERS BLOCKS-->
+    <div class="offers">
+        <center>
+            <div class="offersBlocks" id="Slide1Modal">
+                <div class="topInfo">
+                    <img src="img/slot1img.png" alt="">
+                </div>
+                <div class="bottomInfo">
+                    <!-- BUTTON WHICH OPEN MODAL WINDOW1-->
+                    <h4>slide1</h4>
+                </div>
+            </div>
+            <div class="offersBlocks" id="Slide2Modal">
+                <div class="topInfo">
+                    <img src="img/slot2img.png" alt="">
+                </div>
+                <div class="bottomInfo">
+                    <h4>slide2</h4>
+                    <!-- BUTTON WHICH OPEN MODAL WINDOW2-->
+                </div>
+            </div>
+            <div class="offersBlocks" id="Slide3Modal">
+                <div class="topInfo">
+                    <img src="img/slot3img.png" alt="">
+                </div>
+                <div class="bottomInfo">
+                    <h4>slide3</h4>
+                    <!-- BUTTON WHICH OPEN MODAL WINDOW3-->
+                </div>
+            </div>
+            <div class="offersBlocks" id="Slide4Modal">
+                <div class="topInfo">
+                    <img src="img/slot4img.png" alt="">
+                </div>
+                <div class="bottomInfo">
+                    <h4>slide4</h4>
+                    <!-- BUTTON WHICH OPEN MODAL WINDOW4-->
+                </div>
+            </div>
+            <div class="offersBlocks" id="Slide5Modal">
+                <div class="topInfo">
+                    <img src="img/slot5img.png" alt="">
+                </div>
+                <div class="bottomInfo">
+                    <h4>slide5</h4>
+                    <!-- BUTTON WHICH OPEN MODAL WINDOW5-->
+                </div>
+            </div>
+            <div class="offersBlocks" id="Slide6Modal">
+                <div class="topInfo">
+                    <img src="img/slot6img.png" alt="">
+                </div>
+                <div class="bottomInfo">
+                    <h4>slide6</h4>
+                    <!-- BUTTON WHICH OPEN MODAL WINDOW6-->
+                </div>
+            </div>
+        </center>
+    </div>
+
+    <!--       MODAL WINDOW WITH INFORMATION FOR SERVICES-->
+    <div class="overlay" id="Overlay">
+        <!-- OVERLAY FOR MODAL WINDOW-->
+        <div class="modal">
+            <!-- MODAL WINDOW-->
+            <input type="button" ng-model="close" value="CLOSE" id="Close">
+            <!--   BUTTON FOR SHOT DOWN MODAL WINDOW-->
+            <!-- MODAL WINDOW SLIDES CONTENT-->
+            <center>
+                <div class="modalSlidesContent" id="slide1ModalContent">
+                    Slide1
+                </div>               
+                <div class="modalSlidesContent" id="slide2ModalContent">
+                    Slide2
+                </div>
+                <div class="modalSlidesContent" id="slide3ModalContent">
+                    Slide3
+                </div>
+                <div class="modalSlidesContent" id="slide4ModalContent">
+                    Slide4
+                </div>
+                <div class="modalSlidesContent" id="slide5ModalContent">
+                    Slide5
+                </div>
+                <div class="modalSlidesContent" id="slide6ModalContent">
+                    Slide6
+                </div>
+
+            </center>
+        </div>
+    </div>
+
+    <!--   SLIDE WITH CONTACTS BLOCK-->
+    <div class="contacts">
+        <h1>Contact with us:</h1>
+        <!--   TEL. NUMBER AND GMAIL-->
+        <a href="tel:+380975613257"><i class="fas fa-phone-square"></i> +380975613257</a>
+        <a href="mailto:LOGO@gmail.com"><i class="fas fa-envelope-square"></i> LOGO@gmail.com</a>
+        <h1>Send your question now:</h1>
+        <!--   FIELD FOR SEND A MESSAGE-->
+        <input type="text" placeholder="Enter your e-mail..." id="E-mailEnter">
+        <br>
+        <textarea name="" id="QuestionEnter" cols="50" rows="4" placeholder="Enter your question..."></textarea>
+        <br>
+        <input type="button" value="SEND" id="QuestionSendBut">
+        <h1>Also we are in social networks:</h1>
+        <!--   LINKS FOR SOCIAL NETWORKS-->
+        <a href="#" class="vk"><i class="fab fa-vk fa-2x"></i></a>
+        <a href="#" class="ico"><i class="fab fa-facebook fa-2x"></i></a>
+        <a href="#" class="ico"><i class="fab fa-instagram fa-2x"></i></a>
+        <a href="#" class="ico"><i class="fab fa-telegram fa-2x"></i></a>
+        <a href="#" class="ico"><i class="fab fa-viber fa-2x"></i></a>
+        <a href="#" class="ico"><i class="fab fa-twitter-square fa-2x"></i></a>
+        <!--   GOOGLE MAPS-->
+        <!--        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1529.9023496703887!2d24.026061966189683!3d49.84285580543969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1suk!2sua!4v1519740961470" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>-->
+    </div>
+
+</div>
